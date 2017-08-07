@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_call1"
+        android:title="拨打电话"
+        android:icon="@drawable/ic_jog_dial_answer"
+        >
+
+    </item>
+    <item
+        android:id="@+id/nav_call2"
+        android:icon="@drawable/ic_corp_icon"
+        android:title="文件助手">
+
+    </item>
+    <item
+        android:id="@+id/nav_call3"
+        android:icon="@drawable/ic_menu_share_holo_light"
+        android:title="分享">
+
+    </item>
+    <item
+        android:id="@+id/nav_call4"
+        android:icon="@drawable/ic_menu_home"
+        android:title="首页">
+
+    </item>
+
+
+</group>
+</menu>

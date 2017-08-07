@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/backup"
+    android:title="Backup"
+    android:icon="@drawable/btn_rating_star_on_selected"
+    android:layout_margin="16dp"
+    app:showAsAction="always">
+</item>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_launcher_android"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never">
+    </item>
+    <item
+    android:id="@+id/aa"
+    android:title="Exit"
+    android:icon="@mipmap/ic_launcher"
+    app:showAsAction="never">
+</item>
+
+
+</menu>
